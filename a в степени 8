@@ -1,0 +1,12 @@
+#include <math.h>
+#include <iostream>
+using namespace std;
+int main()
+{   
+    int a, x;
+	cout << "Vvedite A = ";
+	cin >> a;
+	x = pow(a, 3)*pow(a, 3)*(pow(a, 2));
+	cout << x;
+    return 0;
+}
